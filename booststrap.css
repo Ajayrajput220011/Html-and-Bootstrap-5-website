@@ -1,0 +1,262 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+h1{
+    font-family: "Dancing Script";
+    margin:12px;
+    
+    
+}
+#navbar {
+    display: flex;
+    justify-content: end;
+   
+    padding: 0px;
+}
+#h5{
+text-align: center;
+font-size: 25px;
+padding: 0px 0px 6px 0px;
+text-transform: uppercase;
+}
+#p{
+text-align: center;
+font-size: 25px;
+text-transform: capitalize;
+padding: 0px 0px 96px 0px;
+}
+
+
+#navbar #a{
+    text-decoration: none;
+   
+    font-weight: 500;
+    padding-right: 52px;
+}
+#a1 {
+  
+    
+    font-size: 23px;
+
+}
+#a1 span{
+background-color: white;
+text-transform: capitalize;
+}
+#a1:hover {
+   
+    font-size: 23px;
+    color: #0d6efd;
+    
+}
+#a2{
+    border: none !important;
+    transition: 0.5s;
+ 
+    
+}
+#a2:hover{
+    
+    background-color: #0d6efd !important;
+    color: white;
+    
+}
+p{
+    text-align: justify;
+    padding: 12px;
+}
+#button a{
+margin-left: 0rem;
+height: 9vh;
+
+font-size: 1.7rem;
+width: 50%;
+text-decoration: none;
+align-items: center;
+color: white;
+transition: 0.3s;
+}
+#button:hover{
+    
+    background-color:  black !important;
+    }
+    #option{
+text-transform: capitalize;
+    }
+    #a3{
+       padding: 5px;
+        text-decoration: none; cursor: pointer;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    #a3:hover{
+        color: black;
+     }
+    #a4{
+        padding: 5px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 50%;
+        font-size: 20px;
+        font-size: 20px;
+        text-decoration: none; cursor: pointer;
+        color: rgb(255, 255, 255);
+    }
+    #a4:hover{
+        border: 2px solid rgb(0, 0, 0);
+      background-color: red;
+      color: black;
+    }
+
+   
+    
+    #input2{
+        width: 100% ;
+    
+        border-radius: 25px !important;
+        height: 52px;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    ::placeholder{
+        color: rgb(0, 0, 0);
+    }
+    
+   
+    .card{
+        margin:25px;
+        display: flex;
+        text-align: center;
+        padding-left: 15px;
+      
+    }
+     #box.card {
+        width: 100%;
+    }
+  
+    #image2{
+        width: 100%;
+       border: none;
+        height: 25vh;
+        border-radius: 21px;
+       }
+   h5{
+    text-transform: capitalize;
+   }
+
+
+  
+   #image3{
+    width: 100%;
+    border-radius:30px;
+   }
+
+
+   #box1{
+    
+overflow: hidden;
+    height: 50vh;
+    border-bottom: none;
+    background-color: transparent;
+    
+} 
+#image1{
+    margin-top: 10vh;
+width: 100%;
+height: 30vh;
+border-radius: 25px;
+overflow: hidden;
+transition: 0.9s;
+cursor: pointer;
+}
+#image1:hover{
+   transform: scaley(1.6);
+   border-radius: 25px;
+ 
+}
+   #box{
+    text-align: center;
+    text-align: center;
+    margin-right:20px ;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+   
+   }
+#carouselExampleCaptions{
+    height: 100vh;
+    width: 100%;
+}
+
+
+#card5 {
+    border-radius: 33px;
+    background: black;
+    color: white;
+}
+   
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 25rem;
+    border-radius: 21px;
+    height: 10rem;
+    background-repeat: no-repeat;
+    background: rgb(255, 0, 0);
+   
+    background-position: 50%;
+    background-size: 300% 300%;
+}
+
+
+#image5{
+    height: 85vh;
+    width: 100%;
+    
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 15rem;
+    left: 0;
+    z-index: 2;
+    height: 25px !important;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 5rem ;
+    margin-left: 15%;
+    list-style: none;
+}
+#carouselExampleCaptions{
+    width: 100%;
+    height: 85vh;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 9px !important;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255)  !important;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
